@@ -1,0 +1,17 @@
+* {
+    border-color: black;
+    border: 1px;
+    background-color:wheat;
+    border-style: solid;
+}
+
+
+/*#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    width: 30vw;
+}*/
