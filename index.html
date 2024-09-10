@@ -27,45 +27,36 @@
                 </td>
             </tr>
             <tr>        
-                <td colspan="2"><button class="big" onclick="Clear()">AC</button></td>
-                <td colspan="2"><button class="big" onclick="Del()">del</button></td>
+                <td colspan="2"><button class="big" onclick="cle()">AC</button></td>
+                <td colspan="2"><button class="big" onclick="del()">del</button></td>
             </tr>
             <tr>
-                <td><button onclick="Solve('7')">7</button></td>
-                <td><button onclick="Solve('8')">8</button></td>
-                <td><button onclick="Solve('9')">9</button></td>
-                <td><button onclick="Solve('*')">x</button></td>
+                <td><button onclick="append('7')">7</button></td>
+                <td><button onclick="append('8')">8</button></td>
+                <td><button onclick="append('9')">9</button></td>
+                <td><button onclick="append('x')">x</button></td>
             </tr> 
             <tr>
-                <td><button onclick="Solve('4')">4</button></td>
-                <td><button onclick="Solve('5')">5</button></td>
-                <td><button onclick="Solve('6')">6</button></td>
-                <td><button onclick="Solve('-')">-</button></td>
+                <td><button onclick="append('4')">4</button></td>
+                <td><button onclick="append('5')">5</button></td>
+                <td><button onclick="append('6')">6</button></td>
+                <td><button onclick="append('-')">-</button></td>
             </tr>
             <tr>
-                <td><button onclick="Solve('1')">1</button></td>
-                <td><button onclick="Solve('2')">2</button></td>
-                <td><button onclick="Solve('3')">3</button></td>
-                <td><button onclick="Solve('+')">+</button></td>
+                <td><button onclick="append('1')">1</button></td>
+                <td><button onclick="append('2')">2</button></td>
+                <td><button onclick="append('3')">3</button></td>
+                <td><button onclick="append('+')">+</button></td>
             </tr>
             <tr>
-                <td><button onclick="Solve('0')">0</button></td>
-                <td><button onclick="Solve('.')">.</button></td>
-                <td><button onclick="Answer()">=</button></td>
-                <td><button onclick="Solve('/')">/</button></td>
-            </tr>    
-
-            
-            
-
-
-
-
+                <td><button onclick="append('0')">0</button></td>
+                <td><button onclick="append('.')">.</button></td>
+                <td><button onclick="answer()">=</button></td>
+                <td><button onclick="append('/')">/</button></td>
+            </tr>            
 
 
         </table>
-
-
 
     </body>
     <script src="main.js"></script>
