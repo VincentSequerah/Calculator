@@ -1,17 +1,31 @@
-* {
-    border-color: black;
-    border: 1px;
-    background-color:wheat;
-    border-style: solid;
-}
-
-
-/*#buttons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 button {
-    width: 30vw;
-}*/
+    width: 100% ;
+}
+
+table { 
+    border: 1px solid black; 
+
+    margin: auto;
+} 
+/*
+  
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: green; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+  
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
+    */
