@@ -49,13 +49,14 @@ h1 {
     align-content: center;
     text-align: center;
     display:block;
-    height: 70px;
-    width: 70px;
+    aspect-ratio: 1/1;
+    width:min-content;
+    padding: 2px;
     border-radius: 50%;
     position: fixed;
     top: 10px;
     left:10px ;
-    font-size: 20px;
+    font-size: 14px;
 
 
 }
