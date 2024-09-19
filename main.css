@@ -34,3 +34,38 @@ h1 {
     font-family: digital7;
     src: url(digital-7.ttf);
 }
+
+
+
+
+
+
+
+#home-button{
+    background-color: #146C94;
+    color: #F6F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    display:block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    left:10px ;
+    font-size: 20px;
+
+
+}
+
+#home-button:hover {
+    background-color: #19A7CE;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#home-button:active{
+    transform: scale(.9);
+}
